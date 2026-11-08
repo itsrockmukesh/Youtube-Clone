@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="left-header">
+            <div class="menu-icon">☰</div>
+
+            <div class="youtube-logo">
+                <span class="logo-play">▶</span>
+                <span>YouTube <small>Premium</small></span>
+                <sup>IN</sup>
+            </div>
+        </div>
+
+        <!-- Flexbox search bar -->
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <button>⌕</button>
+            </div>
+
+            <div class="mic">🎙</div>
+        </div>
+
+        <div class="right-header">
+            <button class="create">＋ Create</button>
+            <span class="notification">♧ <sup>9+</sup></span>
+            <div class="profile">M</div>
+        </div>
+
+    </header>
+
+    <!-- Main layout -->
+    <div class="page-container">
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+
+            <div class="side-item">
+                <span>⌂</span> Home
+            </div>
+
+            <div class="side-item">
+                <span>▱</span> Shorts
+            </div>
+
+            <hr>
+
+            <div class="side-heading">
+                Subscriptions <span>›</span>
+            </div>
+
+            <div class="side-item selected">
+                <div class="channel-small">M</div>
+                MUSIC DAIRY CRE...
+            </div>
+
+            <hr>
+
+            <div class="side-heading">You <span>›</span></div>
+
+            <div class="side-item"><span>◴</span> History</div>
+            <div class="side-item"><span>☷</span> Playlists</div>
+            <div class="side-item"><span>◷</span> Watch later</div>
+            <div class="side-item"><span>♡</span> Liked videos</div>
+            <div class="side-item"><span>▣</span> Your videos</div>
+            <div class="side-item"><span>↓</span> Downloads</div>
+
+            <hr>
+
+            <div class="side-heading">Explore</div>
+
+            <div class="side-item"><span>♫</span> Music</div>
+            <div class="side-item"><span>▣</span> Movies &amp; TV</div>
+            <div class="side-item"><span>◉</span> Live</div>
+            <div class="side-item"><span>⌄</span> Show more</div>
+
+            <hr>
+
+            <div class="side-heading">More from YouTube</div>
+
+            <div class="side-item"><span>▶</span> YouTube Premium</div>
+            <div class="side-item"><span>🎵</span> YouTube Music</div>
+
+        </aside>
+
+        <!-- Main content -->
+        <main class="main-content">
+
+            <!-- Channel navigation -->
+            <div class="channel-tabs">
+                <div class="tab">Home</div>
+                <div class="tab active">Videos</div>
+                <div class="tab">Playlists</div>
+                <div class="tab search-tab">⌕</div>
+            </div>
+
+            <!-- Filter buttons -->
+            <div class="filter-buttons">
+                <button class="filter active">Latest</button>
+                <button class="filter">Popular</button>
+                <button class="filter">Oldest</button>
+            </div>
+
+            <!-- CSS Grid video layout -->
+            <section class="video-grid">
+
+                <!-- Video 1 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=640&h=360&fit=crop"
+                            alt="Guitar cover">
+                        <span class="duration">♫ 1:02</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Gulabi Aankhen Cover on Guitar.</h3>
+                            <p>▷ 112 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=640&h=360&fit=crop"
+                            alt="Moon and stars">
+                        <span class="duration">♫ 4:12</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Achyutam Keshavam Krishna Damodaram || Guitar Lead || Cover By Mukesh Kumar</h3>
+                            <p>▷ 168 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=640&h=360&fit=crop"
+                            alt="Indian landscape">
+                        <span class="duration">♫ 1:54</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>O Desh Mere || Arijit Singh || Cover Song || Louis Kumar, Mukesh Kumar || Bhuj</h3>
+                            <p>▷ 151 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=640&h=360&fit=crop"
+                            alt="Music studio">
+                        <span class="duration">♫ 6:35</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Tu...Chij...Badi...Hai...Mast...Mast DJ... Full bass.... Nonstop DJ....</h3>
+                            <p>▷ 724 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=640&h=360&fit=crop"
+                            alt="Guitar player">
+                        <span class="duration">♫ 1:56</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Sare Jahan Se Achha Guitar Cover My Mukesh || Happy Republic Day 🇮🇳</h3>
+                            <p>▷ 145 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=640&h=360&fit=crop"
+                            alt="Guitar performance">
+                        <span class="duration">♫ 1:01</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Merry Christmas 🎄 Jingle Bells || Guitar Lead Cover by Mukesh || Christmas Song</h3>
+                            <p>▷ 127 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 7 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=640&h=360&fit=crop"
+                            alt="Live music">
+                        <span class="duration">♫ 3:25</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Live Music Performance | Guitar Cover</h3>
+                            <p>▷ 230 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 8 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=640&h=360&fit=crop"
+                            alt="Night sky">
+                        <span class="duration">♫ 2:40</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Beautiful Melody Guitar Cover | Music Dairy</h3>
+                            <p>▷ 190 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+                <!-- Video 9 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=640&h=360&fit=crop"
+                            alt="Concert">
+                        <span class="duration">♫ 5:20</span>
+                    </div>
+
+                    <div class="video-info">
+                        <div class="video-text">
+                            <h3>Best Guitar Music | Relaxing Instrumental</h3>
+                            <p>▷ 320 · 5y ago</p>
+                        </div>
+                        <span class="dots">⋮</span>
+                    </div>
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>
